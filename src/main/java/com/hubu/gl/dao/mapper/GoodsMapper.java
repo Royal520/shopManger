@@ -1,4 +1,4 @@
-package com.hubu.gl.dao;
+package com.hubu.gl.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.hubu.gl.Entity.Goods;

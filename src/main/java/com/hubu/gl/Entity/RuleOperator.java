@@ -2,7 +2,7 @@ package com.hubu.gl.Entity;
 import lombok.Getter;
 
 @Getter
-enum RuleOperator {
+public enum RuleOperator {
 
     EQUAL,
     NOT_EQUAL,
@@ -30,6 +30,9 @@ enum RuleOperator {
     IS_NOT_NULL,
 
     IS_EMPTY,
-    IS_NOT_EMPTY
+    IS_NOT_EMPTY,
+
+    LIKE,
+    NO_LIKE
 
 }

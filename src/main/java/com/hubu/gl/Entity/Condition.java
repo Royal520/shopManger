@@ -1,2 +1,9 @@
-package com.hubu.gl.Entity;public enum Condition {
+package com.hubu.gl.Entity;
+
+import lombok.Getter;
+
+@Getter
+public enum Condition {
+    AND,
+    OR
 }

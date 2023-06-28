@@ -1,5 +1,9 @@
 package com.hubu.gl.Entity;
 
+import lombok.Data;
+import lombok.ToString;
+import lombok.experimental.Accessors;
+
 import java.util.List;
 
 /**
@@ -8,9 +12,12 @@ import java.util.List;
  * @description: TODO
  * @date 2023/6/14 下午3:18
  */
-public class Rule {
-    public String condition;
+@Data
+@ToString
+@Accessors(chain = true)
+public class QueryCondition {
+    public Condition condition;
     public boolean valid;
-    public List<ItemRule> rules;
+    public List<Rule> rules;
 
 }
